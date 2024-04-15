@@ -4,7 +4,7 @@
 from __future__ import annotations
 
 DOCUMENTATION = '''
-    name: cisco_meraki
+    name: silexdata.meraki.cisco_meraki
     version_added: "2.14"
     requirements:
         - meraki
@@ -21,7 +21,7 @@ DOCUMENTATION = '''
       plugin:
         description: token that ensures this is a source file for the C(cisco_meraki) plugin.
         required: true
-        choices: ['silex.meraki.cisco_meraki']
+        choices: ['silexdata.meraki.cisco_meraki']
       meraki_base_url:
         description:
           - URL of the Meraki API
@@ -57,7 +57,7 @@ from ansible.plugins.inventory import BaseInventoryPlugin, Cacheable, to_safe_gr
 class InventoryModule(BaseInventoryPlugin, Cacheable, Constructable):
     '''Host inventory parser for ansible using Cisco Meraki API as source'''
 
-    NAME = 'silex.meraki.cisco_meraki'
+    NAME = 'silexdata.meraki.cisco_meraki'
 
     def __init__(self):
         super(InventoryModule, self).__init__()

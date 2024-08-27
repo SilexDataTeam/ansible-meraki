@@ -9,7 +9,7 @@ from __future__ import annotations
 DOCUMENTATION = '''
 ---
 name: cisco_meraki
-version_added: "1.1.0"
+version_added: "1.0.0"
 requirements:
   - meraki >= 1.33.0
 short_description: Uses Cisco Meraki API as an inventory source.

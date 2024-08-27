@@ -105,6 +105,7 @@ class InventoryModule(BaseInventoryPlugin, Cacheable, Constructable):
         self.hosts = dict()
         self.group_parent = self.get_option('group_parent')
         self.group_prefix = self.get_option('group_prefix')
+        self.want_devices = self.get_option('want_devices')
         self.want_organization = self.get_option('want_organization')
 
         # Create parent group (if defined)

@@ -134,6 +134,7 @@ class InventoryModule(BaseInventoryPlugin, Cacheable, Constructable):
                     'enrollment_string': network['enrollmentString'],
                     'notes': network['notes'],
                     'url': network['url'],
+                    'is_bound_to_config_template': network['isBoundToConfigTemplate'],
                     'org_id': org['id'],
                     'org_name': org['name']
                 }

@@ -1,3 +1,0 @@
----
-minor_changes:
-  - cisco_meraki - include the status of isBoundToConfigTemplate in host variables

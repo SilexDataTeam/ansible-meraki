@@ -1,0 +1,10 @@
+---
+ancestor: null
+releases:
+  1.2.0:
+    changes:
+      minor_changes:
+        - cisco_meraki - include the status of isBoundToConfigTemplate in host variables
+    fragments:
+      - configtemplate.yml
+    release_date: '2025-03-19'

@@ -1,0 +1,23 @@
+objects:
+  role: {}
+plugins:
+  become: {}
+  cache: {}
+  callback: {}
+  cliconf: {}
+  connection: {}
+  filter: {}
+  httpapi: {}
+  inventory:
+    cisco_meraki:
+      description: Uses Cisco Meraki API as an inventory source.
+      name: cisco_meraki
+      version_added: 1.0.0
+  lookup: {}
+  module: {}
+  netconf: {}
+  shell: {}
+  strategy: {}
+  test: {}
+  vars: {}
+version: 1.2.0

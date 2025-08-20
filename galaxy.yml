@@ -17,6 +17,7 @@ readme: README.md
 # @nicks:irc/im.site#channel'
 authors:
   - Matthew Hyclak <mhyclak@silexdata.com>
+  - Adam Brauns <abrauns@silexdata.com>
 
 ### OPTIONAL but strongly recommended
 # A short summary description of the collection
@@ -52,10 +53,10 @@ dependencies: {}
 repository: https://github.com/SilexDataTeam/ansible-meraki
 
 # The URL to any online docs
-documentation: https://github.com/SilexDataTeam/ansible-meraki/docs
+documentation: https://galaxy.ansible.com/ui/repo/published/silexdata/meraki/docs/
 
 # The URL to the homepage of the collection/project
-homepage: https://github.com/SilexDataTeam/ansible-meraki
+homepage: https://www.silexdata.com/
 
 # The URL to the collection issue tracker
 issues: https://github.com/SilexDataTeam/ansible-meraki/issues
